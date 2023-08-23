@@ -1,0 +1,29 @@
+.boton-contenedor {
+    height: 83px;/*altura*/
+    display: flex;/*se alinea centro*/
+    flex: 1 1;/*ancho, quiere decir que se expanden al mismo tamaño*/
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;/*en negritas*/
+    font-size: 38px;/*tamaño*/
+    background-color: #1b1b32;
+    color: white;/*blanco*/
+    border-radius: 25px;/*borde redondeado*/
+    border: 2px solid white;/*sera blanco*/
+    margin: 4px;
+    cursor: pointer;/*se hace manita el cursor*/
+    user-select: none;/*el texto no puede ser seleccionado*/
+  }
+  
+  .boton-contenedor:hover {
+    background-color: #5a01a7;/*color de fondo hover es un estado especial
+    cuando esta sobre el boton pero sin hacer click*/
+  }
+  
+  .operador {
+    background-color: #00471b;/*este es de un operador*/
+  }
+  
+  .operador:hover {
+    background-color: #ff6600;/*si pasa el cursor se vera este color*/
+  }

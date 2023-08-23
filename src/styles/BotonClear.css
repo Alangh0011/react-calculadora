@@ -1,0 +1,21 @@
+.boton-clear {
+    height: 80px;/*altura*/
+    font-size: 1.6em;/*tamaño de letra 1.6em unidad relativa, 1.6 veces 
+    al tamaño del contenedor*/
+    display: flex;
+    flex: 1;/*boton llena todo el espacio*/
+    background-color: #ac0246;
+    margin-top: 8px;/*margen*/
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;/*negrita*/
+    color: white;
+    border: 2px solid white; /*borde*/
+    border-radius: 45px; 
+    cursor: pointer;   /*cursor manita cuando pase el cursor*/   
+  }
+  
+  .boton-clear:hover {
+    background-color: #ebb000;/*cuando pase el cursor cambia el color
+    de fondo*/
+  }

@@ -1,0 +1,15 @@
+.input {
+    height: 75px;/*altura fija*/
+    border-radius: 50px;/*borde redondeado*/
+    margin-bottom: 20px;/**/
+    display: flex;
+    justify-content: flex-end;/*se alineara a la derecha*/
+    align-items: center;/*centro vertical*/
+    font-weight: bold;/*texto negrita*/
+    font-size: 30px;/*letra tamaño*/
+    background-color: #0a0a23;
+    color: white;/*texto blanco*/
+    padding: 11px 30px 11px 11px;/*superior derecho inferor izquierdo*/
+    margin: 1px solid #888;/**/
+    box-shadow: -1px 4px 1px 1px white;/*pantalla con sombra*/
+  }
